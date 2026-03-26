@@ -1,0 +1,38 @@
+# Secrets — NEVER commit this
+Secrets.plist
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods (not used but safe to add)
+Pods/
+*.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Previews
+PreviewAssets.xcassets
+Secrets.plist
+*.plist.secret
